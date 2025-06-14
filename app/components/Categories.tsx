@@ -15,18 +15,18 @@ import {
 } from "lucide-react"
 
 const categories = [
-  { name: "Restaurants", icon: Utensils, count: "2.5M+", color: "bg-orange-100 text-orange-600" },
-  { name: "Hotels", icon: Hotel, count: "500K+", color: "bg-blue-100 text-blue-600" },
-  { name: "Hospitals", icon: Stethoscope, count: "100K+", color: "bg-green-100 text-green-600" },
-  { name: "Beauty Salons", icon: Scissors, count: "300K+", color: "bg-pink-100 text-pink-600" },
-  { name: "Gyms", icon: Dumbbell, count: "50K+", color: "bg-purple-100 text-purple-600" },
-  { name: "Schools", icon: GraduationCap, count: "200K+", color: "bg-indigo-100 text-indigo-600" },
-  { name: "Shopping", icon: ShoppingBag, count: "1M+", color: "bg-red-100 text-red-600" },
-  { name: "Auto Services", icon: Car, count: "150K+", color: "bg-gray-100 text-gray-600" },
-  { name: "Home Services", icon: Home, count: "400K+", color: "bg-yellow-100 text-yellow-600" },
+  { name: "Plumbering", icon: Utensils, count: "2.5M+", color: "bg-orange-100 text-orange-600" },
+  { name: "Painting", icon: Hotel, count: "500K+", color: "bg-blue-100 text-blue-600" },
+  { name: "Electrician", icon: Stethoscope, count: "100K+", color: "bg-green-100 text-green-600" },
+  { name: "Roofing", icon: Scissors, count: "300K+", color: "bg-pink-100 text-pink-600" },
+  { name: "Carpentering", icon: Dumbbell, count: "50K+", color: "bg-purple-100 text-purple-600" },
+  // { name: "Schools", icon: GraduationCap, count: "200K+", color: "bg-indigo-100 text-indigo-600" },
+  // { name: "Shopping", icon: ShoppingBag, count: "1M+", color: "bg-red-100 text-red-600" },
+  // { name: "Auto Services", icon: Car, count: "150K+", color: "bg-gray-100 text-gray-600" },
+  // { name: "Home Services", icon: Home, count: "400K+", color: "bg-yellow-100 text-yellow-600" },
   { name: "Repair Services", icon: Wrench, count: "250K+", color: "bg-teal-100 text-teal-600" },
-  { name: "Consultants", icon: Briefcase, count: "80K+", color: "bg-cyan-100 text-cyan-600" },
-  { name: "Wedding", icon: Heart, count: "60K+", color: "bg-rose-100 text-rose-600" },
+  // { name: "Consultants", icon: Briefcase, count: "80K+", color: "bg-cyan-100 text-cyan-600" },
+  // { name: "Wedding", icon: Heart, count: "60K+", color: "bg-rose-100 text-rose-600" },
 ]
 
 export default function Categories() {
