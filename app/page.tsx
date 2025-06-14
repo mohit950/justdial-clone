@@ -8,13 +8,14 @@ import ContactPage from "./components/ContactUs"
 import Testimonials from "./components/Testimonials"
 
 export const metadata: Metadata = {
-  title: "CIVIL-G Clone - Find Local Businesses & Services Near You",
-  description:
-    "Discover local businesses, services, restaurants, doctors, and more. Get contact details, reviews, and directions for businesses in your area.",
-  keywords: "local business, services, restaurants, doctors, shops, contact details, reviews",
+  title: 'Civil-G | Construction Services Near You',
+  description: 'Civil-G helps you find the best construction workers and services in your area.',
+  keywords: ['Civil-G', 'civil g', 'construction workers', 'labor services', 'builders India', 'services'],
   openGraph: {
-    title: "CIVIL-G Clone - Local Business Directory",
-    description: "Find the best local businesses and services near you",
+    title: 'Civil-G',
+    description: 'Find trusted construction workers in your city.',
+    url: 'https://your-vercel-url.vercel.app',
+    // images: ['/og-image.png'], // Optional: add a social share image
     type: "website",
   },
 }
