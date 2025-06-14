@@ -3,7 +3,7 @@ import SearchResults from "../components/SearchResults"
 import SearchFilters from "../components/SearchFilters"
 
 export const metadata: Metadata = {
-  title: "Search Results - dhoond Clone",
+  title: "Search Results - CIVIL-G Clone",
   description: "Find local businesses and services near you",
 }
 

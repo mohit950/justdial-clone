@@ -28,12 +28,12 @@ export default function Header() {
             <Link href="/advertise" className="hover:text-blue-600">
               Advertise
             </Link>
-            <Link href="/login" className="hover:text-blue-600">
+            {/* <Link href="/login" className="hover:text-blue-600">
               Login
             </Link>
             <Link href="/signup" className="hover:text-blue-600">
               Sign Up
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -42,11 +42,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="bg-red-600 text-white px-3 py-2 rounded font-bold text-xl">DD</div>
-            <span className="ml-2 text-xl font-bold text-gray-800 hidden sm:block">dhoond</span>
+            <span className="ml-2 text-xl font-bold text-gray-800 hidden sm:block">CIVIL-G</span>
           </Link>
 
           {/* Search Bar - Desktop */}
-          <div className="hidden lg:flex flex-1 max-w-2xl mx-8">
+          {/* <div className="hidden lg:flex flex-1 max-w-2xl mx-8">
             <div className="flex w-full">
               <div className="flex items-center bg-gray-100 px-3 rounded-l-md">
                 <MapPin className="w-4 h-4 text-gray-500" />
@@ -74,7 +74,7 @@ export default function Header() {
                 <Search className="w-4 h-4" />
               </Button>
             </div>
-          </div>
+          </div> */}
 
           {/* Mobile Menu */}
           <div className="lg:hidden">
@@ -117,7 +117,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Actions */}
-          <div className="hidden lg:flex items-center space-x-4">
+          {/* <div className="hidden lg:flex items-center space-x-4">
             <Button variant="outline" size="sm">
               <User className="w-4 h-4 mr-2" />
               Login
@@ -125,11 +125,11 @@ export default function Header() {
             <Button size="sm" className="bg-red-600 hover:bg-red-700">
               Free Listing
             </Button>
-          </div>
+          </div> */}
         </div>
 
         {/* Mobile Search */}
-        <div className="lg:hidden pb-4">
+        {/* <div className="lg:hidden pb-4">
           <div className="flex space-x-2">
             <div className="flex items-center bg-gray-100 px-2 rounded text-sm">
               <MapPin className="w-4 h-4 mr-1" />
@@ -145,7 +145,7 @@ export default function Header() {
               </Button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </header>
   )

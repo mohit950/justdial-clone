@@ -8,7 +8,7 @@ export default function AppDownload() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <div>
-            <h2 className="text-2xl lg:text-4xl font-bold mb-4">Get the dhoond App</h2>
+            <h2 className="text-2xl lg:text-4xl font-bold mb-4">Get the CIVIL-G App</h2>
             <p className="text-lg mb-6 opacity-90">
               Find businesses on the go with our mobile app. Available for iOS and Android.
             </p>
@@ -68,7 +68,7 @@ export default function AppDownload() {
             <div className="relative inline-block">
               <Image
                 src="/placeholder.svg?height=400&width=250"
-                alt="dhoond Mobile App"
+                alt="CIVIL-G Mobile App"
                 width={250}
                 height={400}
                 className="mx-auto"

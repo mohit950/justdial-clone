@@ -9,14 +9,14 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "dhoond Clone - Local Business Directory",
-    template: "%s | dhoond Clone",
+    default: "CIVIL-G - Best Construction Work",
+    template: "%s | CIVIL-G Clone",
   },
-  description: "Find local businesses, services, and get contact details with reviews",
-  keywords: "local business, directory, services, contact, reviews",
-  authors: [{ name: "dhoond Clone" }],
-  creator: "dhoond Clone",
-  publisher: "dhoond Clone",
+  description: "Find all kind of cinstructions workers, plumber, electrician, and get contact details with reviews",
+  keywords: "construction, plumber, plumbering, electrician, putty, painting, services, contact, reviews",
+  authors: [{ name: "CIVIL-G Clone" }],
+  creator: "CIVIL-G Clone",
+  publisher: "CIVIL-G Clone",
   robots: {
     index: true,
     follow: true,

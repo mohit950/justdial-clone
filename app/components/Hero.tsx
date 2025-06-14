@@ -1,25 +1,33 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Search, MapPin, TrendingUpIcon as Trending } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { useState } from "react";
+import { Search, MapPin, TrendingUpIcon as Trending } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import AutoCompleteInput from "@/components/ui/AutoCompleteInput";
 
 export default function Hero() {
-  const [searchQuery, setSearchQuery] = useState("")
-  const [location, setLocation] = useState("Mumbai")
+  const [searchQuery, setSearchQuery] = useState("");
+  const [location, setLocation] = useState("Kanpur");
 
-  const trendingSearches = ["Restaurants", "Hotels", "Hospitals", "Salons", "Gyms", "Schools"]
+  const trendingSearches = [
+    "Plumbers",
+    "Painters",
+    "Electricians",
+    "Carpenters",
+    "Masons",
+    "Roofers",
+  ];
 
   return (
-    <section className="bg-cover bg-[url('https://img.freepik.com/premium-photo/best-eye-catchy-wallpaper-pc-desktop_988864-306.jpg')] text-white py-12 lg:py-20">
-      <div className="container mx-auto px-4">
+    <section className="bg-white bg-[url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-center bg-no-repeat py-16 lg:py-24">
+      <div className="absolute inset-0 bg-white opacity-50"></div>
+      <div className="relative mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl lg:text-5xl font-bold mb-4">Find Local Businesses</h1>
+          <h1 className="text-3xl lg:text-5xl font-bold mb-4">Find Worker</h1>
           <p className="text-lg lg:text-xl mb-8 opacity-90">
-            Discover the best restaurants, services, and businesses near you
+            Discover the best construction workers near you
           </p>
-
           {/* Search Form */}
           <div className="bg-white rounded-lg p-4 lg:p-6 shadow-xl">
             <div className="flex flex-col lg:flex-row gap-4">
@@ -31,6 +39,7 @@ export default function Hero() {
                   onChange={(e) => setLocation(e.target.value)}
                   className="bg-transparent border-none outline-none text-gray-700 w-full"
                 >
+                  <option>Kanpur</option>
                   <option>Mumbai</option>
                   <option>Delhi</option>
                   <option>Bangalore</option>
@@ -44,14 +53,14 @@ export default function Hero() {
 
               {/* Search Input */}
               <div className="flex flex-1">
-                <Input
-                  type="text"
-                  placeholder="Search for restaurants, hotels, services, doctors..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="flex-1 rounded-r-none border-gray-300 text-gray-700 py-3 px-4 text-lg"
-                />
-                <Button size="lg" className="rounded-l-none bg-red-600 hover:bg-red-700 px-8">
+                <AutoCompleteInput setQuery={setSearchQuery} query={searchQuery
+                  
+                }/>
+
+                <Button
+                  size="lg"
+                  className="rounded bg-red-600 hover:bg-red-700 px-8 mt-0.5 ms-5"
+                >
                   <Search className="w-5 h-5" />
                 </Button>
               </div>
@@ -61,7 +70,9 @@ export default function Hero() {
             <div className="mt-6 text-left">
               <div className="flex items-center mb-3">
                 <Trending className="w-4 h-4 text-gray-500 mr-2" />
-                <span className="text-sm text-gray-600 font-medium">Trending:</span>
+                <span className="text-sm text-gray-600 font-medium">
+                  Trending:
+                </span>
               </div>
               <div className="flex flex-wrap gap-2">
                 {trendingSearches.map((search, index) => (
@@ -98,5 +109,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <div className="bg-red-600 text-white px-3 py-2 rounded font-bold text-xl">JD</div>
-              <span className="ml-2 text-xl font-bold">dhoond</span>
+              <span className="ml-2 text-xl font-bold">CIVIL-G</span>
             </div>
             <p className="text-gray-400 mb-4">
               India's leading local search engine providing comprehensive business information and connecting people
@@ -73,7 +73,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <Link href="/restaurants" className="text-gray-400 hover:text-white">
                   Restaurants
                 </Link>
@@ -92,15 +92,30 @@ export default function Footer() {
                 <Link href="/beauty-salons" className="text-gray-400 hover:text-white">
                   Beauty Salons
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="/home-services" className="text-gray-400 hover:text-white">
-                  Home Services
+                <Link href="/" className="text-gray-400 hover:text-white">
+                  Plumbering
                 </Link>
               </li>
               <li>
-                <Link href="/auto-services" className="text-gray-400 hover:text-white">
-                  Auto Services
+                <Link href="/" className="text-gray-400 hover:text-white">
+                  Carpentering
+                </Link>
+              </li>
+              <li>
+                <Link href="/" className="text-gray-400 hover:text-white">
+                  Painting
+                </Link>
+              </li>
+              <li>
+                <Link href="/" className="text-gray-400 hover:text-white">
+                  Electrianing
+                </Link>
+              </li>
+              <li>
+                <Link href="/" className="text-gray-400 hover:text-white">
+                  Roofing
                 </Link>
               </li>
             </ul>
@@ -116,7 +131,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-3 text-red-500" />
-                <span className="text-gray-400">info@dhoond.com</span>
+                <span className="text-gray-400">info@CIVIL-G.com</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="w-4 h-4 mr-3 text-red-500 mt-1" />
@@ -135,7 +150,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} dhoond. All rights reserved.
+              © {new Date().getFullYear()} CIVIL-G. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/privacy-policy" className="text-gray-400 hover:text-white">

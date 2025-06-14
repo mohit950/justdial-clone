@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export const metadata: Metadata = {
-  title: "Business Details - dhoond Clone",
+  title: "Business Details - CIVIL-G Clone",
   description: "View detailed information about local businesses",
 }
 
