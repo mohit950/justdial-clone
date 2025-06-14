@@ -8,6 +8,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export const metadata: Metadata = {
   title: "Business Details - CIVIL-G Clone",
   description: "View detailed information about local businesses",
+  verification: {
+    google: 'your-verification-code',
+  },
 }
 
 export default function BusinessPage({ params }: { params: { id: string } }) {

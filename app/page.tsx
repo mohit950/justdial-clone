@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: 'Civil-G | Construction Services Near You',
   description: 'Civil-G helps you find the best construction workers and services in your area.',
   keywords: ['Civil-G', 'civil g', 'construction workers', 'labor services', 'builders India', 'services'],
+  verification: {
+    google: 'U4cNAUU_kDbr-kYd2-r7rSJDl-2EYaYnBHJFMSq37LI',
+  },
   openGraph: {
     title: 'Civil-G',
     description: 'Find trusted construction workers in your city.',
@@ -19,7 +22,6 @@ export const metadata: Metadata = {
     type: "website",
   },
 }
-
 export default function Home() {
   return (
     <main className="min-h-screen">
